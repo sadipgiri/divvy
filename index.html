@@ -94,27 +94,17 @@
     <section class="success" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center">
+                <div class="col-md-12 text-center">
                     <h3 class="section-heading">WHAT IS DIVVY?</h3>
                     <br>
-                    <p class="text-justify">
+                    <br>
+                    <img src="img/logo.png" alt="">
+                    <br>
+                    <br>
+                    <p class="text-justify" style="font-size: 25px; padding-top: 25px; padding-bottom: 25px">
                         Divvy is a location-based marketplace for taskers and taskees to collaborate in a tinder-like environment, allowing users to seek immediate help with everyday tasks.
                     </p>
-
-                </div>
-
-                <div class="col-md-6 text-center">
-                    <h3 class="section-heading">PICTURES</h3>
                     <br>
-                    <div id="spinner"><img src="img/loading.gif" /></div>
-                    <div id="instafeed"></div>
-                    <br>
-                    <span style="margin-right:20px;float:right;">
-                        <i class="fa fa-external-link"></i>
-                        <a href="https://www.instagram.com/sadipgiri/" style="color: black">More</a>
-                    </span>
-                    
-      
                 </div>
                 
             </div>
@@ -231,31 +221,6 @@
     <script src="js/script.min.js"></script>
     <script type="text/javascript" src="js/instaFeed.js"></script>
 
-<script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'user',
-        sortBy: 'most-liked',
-        userId: '2215024718',
-        accessToken: '2215024718.1677ed0.973e1c8f245a49cfbab478211e6acff6',
-        template:  '<a class="animation" target="_blank" href="{{link}}"><img class="instaImage" src="{{image}}" /></a>',
-        limit: 9,
-        before: showSpinner(),
-        success: function(jO){
-            hideSpinner();
-        }
-    });
-    feed.run();
-    function showSpinner(){
-        $('#spinner').show();
-        $('#instafeed').hide();
-    }
-
-    function hideSpinner(){
-        $('#spinner').hide();
-        $('#instafeed').show();
-
-    }
-</script>
 
 </body>
 

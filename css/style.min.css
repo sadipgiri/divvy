@@ -15,7 +15,13 @@
 
  	section{padding:100px 0}
 
- section h2.section-heading{font-size:40px;margin-top:0;margin-bottom:15px}section h3.section-subheading{font-size:16px;text-transform:none;font-weight:400;margin-bottom:75px}@media (min-width:768px){section{padding:150px 0}}.service-heading{margin:15px 0;text-transform:none}
+ section h2.section-heading{
+ 	font-size:40px;
+ 	margin-top:0;
+ 	margin-bottom:15px
+ }
+
+ section h3.section-subheading{font-size:16px;text-transform:none;font-weight:400;margin-bottom:75px}@media (min-width:768px){section{padding:150px 0}}.service-heading{margin:15px 0;text-transform:none}
 
  #portfolio .portfolio-item{margin:0 0 15px;right:0}#portfolio .portfolio-item .portfolio-link{display:block;position:relative;max-width:400px;margin:0 auto}
 
@@ -76,28 +82,6 @@
  	::-moz-selection{text-shadow:none;background:#fed136}::selection{text-shadow:none;background:#fed136}img::selection{background:0 0}img::-moz-selection{background:0 0}
 
 
-
-.instaImage{
-	margin:10px;
-	border:3px groove #222
-}
-
-.instaImage:hover{
- 	
- 	transform:rotate(-3deg) scale(1.05);
- 	transition:transform .8s;
-
- 	cursor:pointer
-
-
- 	filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
- 	-webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
-  	-o-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
- 	-ms-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
- 	-moz-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
-}
-
-
 .typewriter h4{
   overflow: hidden; 
   border-right: .15em solid orange; 
@@ -127,14 +111,12 @@
 }
 
 
-/*for social buttons */
 ul.social-buttons{
 	margin-bottom:0
 }
 
 ul.social-buttons li a{
 	display:block;
-	/*background-color:rgba(62,57,57);*/
 	height:40px;width:40px;border-radius:100%;
 	font-size:20px;
 	line-height:40px;
